@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_inicio"
+        android:title="Inicio"
+        android:icon="@android:drawable/ic_menu_view" />
+    <item
+        android:id="@+id/nav_moneda"
+        android:title="Conversión de Moneda"
+        android:icon="@android:drawable/ic_menu_manage" />
+    <item
+        android:id="@+id/nav_progreso"
+        android:title="Barra de Progreso"
+        android:icon="@android:drawable/ic_media_play" />
+</menu>

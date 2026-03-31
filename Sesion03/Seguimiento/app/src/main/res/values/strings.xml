@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Seguimiento</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+
+    </resources>

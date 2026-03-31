@@ -1,0 +1,58 @@
+package com.example.seguimiento
+import android.content.Intent
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import android.util.Log
+import android.view.View
+import androidx.activity.enableEdgeToEdge
+class MainActivity : BaseProgressActivity() {
+    override fun getLayoutResId(): Int {
+        return R.layout.activity_segunda_actividad
+    }
+    private val TAG = "Ciclo de Vida"
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+        Log.d(TAG, "En el evento onCreate()")
+    }
+    fun onClick(view: View) {
+        val intent = Intent(this, SegundaActividad::class.java)
+        startActivity(intent)
+    }
+    fun onMoneda(view: View) {
+        val intent = Intent(this, MonedaActivity::class.java)
+        startActivity(intent)
+    }
+    fun onDrawer(view: View) {
+        val intent = Intent(this, DrawerActivity::class.java)
+        startActivity(intent)
+    }
+
+
+    override fun onStart() {
+        super.onStart();
+        Log.d(TAG, "En el evento onStart()")
+    }
+    override fun onRestart() {
+        super.onRestart();
+        Log.d(TAG, "En el evento onRestart()")
+    }
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, "En el evento onResume()")
+    }
+    override fun onPause() {
+        super.onPause()
+        Log.d(TAG, "En el evento onPause()")
+    }
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, "En el evento onStop()")
+    }
+    override fun onDestroy()
+    {
+        super.onDestroy();
+        Log.d(TAG, "En el evento onDestroy()")
+    }
+}
