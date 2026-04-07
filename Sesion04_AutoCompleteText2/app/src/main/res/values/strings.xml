@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sesion04_AutoCompleteText</string>
+    <string name="timepicker">TimePicker</string>
+    <string name="nombre_del_presidente">Nombre del presidente:</string>
+    <string name="datepicker">DatePicker</string>
+    <string name="hora">Hora:</string>
+</resources>
