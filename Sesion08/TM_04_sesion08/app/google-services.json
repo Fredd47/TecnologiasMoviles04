@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1029455737843",
+    "firebase_url": "https://estudiante-cd720-default-rtdb.firebaseio.com/",
+    "project_id": "estudiante-cd720",
+    "storage_bucket": "estudiante-cd720.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029455737843:android:ff956b9b97f5beb1619886",
+        "android_client_info": {
+          "package_name": "com.wearable.tm_04_sesion08"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuJziEFk9KxeCYUBDACjdEffWZnpAbD0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
